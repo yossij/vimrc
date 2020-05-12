@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     " fuzzy search
 Plug 'neoclide/coc.nvim', {'branch': 'release'}         " intellisense engine
-Plug 'rakr/vim-one'                                     " colorscheme
+Plug 'joshdick/onedark.vim'                             " colorscheme
 Plug 'preservim/nerdtree'                               " file tree
 Plug 'dart-lang/dart-vim-plugin'                        " Dart
 Plug 'thosakwe/vim-flutter'                             " flutter
@@ -22,6 +22,5 @@ Plug 'yggdroot/indentline'                              " vertical line indent
 Plug 'pseewald/vim-anyfold'                             " code fold
 Plug 'chr4/nginx.vim'                                   " nginx colors
 Plug 'chiel92/vim-autoformat'                           " code format
-
 
 call plug#end()
