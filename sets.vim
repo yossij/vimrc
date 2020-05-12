@@ -5,6 +5,8 @@ if has("gui_running")
 endif
 
 autocmd VimEnter * NERDTree " run NERDTree on startup
+autocmd VimEnter * wincmd p " focus on file instead of NERDTree
+let NERDTreeShowHidden=1    " show hidden files on NERDTree
 
 set encoding=utf-8      " utf-8
 set nocompatible        " be iMproved, required
@@ -24,6 +26,7 @@ set lbr                 " line break
 set ai                  " auto indent
 set si                  " smart indent
 set nobackup            " don't save backup files
+set noundofile          " remove undo file
 
 set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
 
