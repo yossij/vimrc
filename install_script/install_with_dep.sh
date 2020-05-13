@@ -34,6 +34,5 @@ else
   exit 1
 fi
 
-# curl -sL https://github.com/yossij/vimrc/raw/master/install_script/install.sh | bash -
 bash -c "$(curl -fsSL https://github.com/yossij/vimrc/raw/master/install_script/install.sh)"
 
