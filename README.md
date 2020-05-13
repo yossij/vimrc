@@ -1,6 +1,8 @@
 # vimrc
 My custom vimrc
 
+![Sample image](https://raw.githubusercontent.com/yossij/vimrc/feature/readme/img/sample.png)
+
 ## How to install
 **Note:** During the installation you'll be asked to `press ENTER` to continue. 
 On first launch of vim the `coc` will configure itself.
