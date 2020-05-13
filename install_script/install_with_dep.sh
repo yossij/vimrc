@@ -11,6 +11,12 @@ if [[ `command -v yum | grep -o yum` == 'yum' ]]; then
 	curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
 	sudo yum install -y nodejs
 
+# mac
+elif [[ `command -v brew | grep -o brew` == 'brew' ]]; then
+  # install git
+  # and nodsjs (for coc)
+	brew install -y git node
+
 # apt
 elif [[ `command -v apt | grep -o apt` == 'apt' ]]; then
 	# update apt
@@ -20,7 +26,7 @@ elif [[ `command -v apt | grep -o apt` == 'apt' ]]; then
 	sudo apt install git -y
 
 	# install git 
-	# and nodsjs, npm for coc
+  # and nodsjs, npm (for coc)
 	sudo apt install git nodejs npm -y
 
 else
