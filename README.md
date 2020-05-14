@@ -1,7 +1,7 @@
 # vimrc
 My custom vimrc
 
-![Sample image](https://raw.githubusercontent.com/yossij/vimrc/feature/readme/img/sample.png)
+![Sample image](https://raw.githubusercontent.com/yossij/vimrc/master/img/sample.png)
 
 ## How to install
 **Note:** During the installation you'll be asked to `press ENTER` to continue. 
