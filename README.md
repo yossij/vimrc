@@ -38,8 +38,8 @@ curl -sL https://github.com/yossij/vimrc/raw/master/install_script/install_with_
 - Code folding
 - Git assistance
 - Syntax checking
-- Visual vertical line for indentetion
-- Smart indentetion
+- Visual vertical line for indentation
+- Smart indentation
 - tabs to spaces
 
 ### Theme & Colorscheme
