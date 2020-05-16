@@ -40,7 +40,7 @@ curl -sL https://github.com/yossij/vimrc/raw/master/install_script/install_with_
 - Syntax checking
 - Visual vertical line for indentation
 - Smart indentation
-- tabs to spaces
+- Tabs to spaces
 
 ### Theme & Colorscheme
 [onedark](https://github.com/joshdick/onedark.vim)
