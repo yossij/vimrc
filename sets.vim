@@ -27,6 +27,7 @@ set ai                  " auto indent
 set si                  " smart indent
 set nobackup            " don't save backup files
 set noundofile          " remove undo file
+set spell spelllang=en_us " spell check
 
 set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
 
